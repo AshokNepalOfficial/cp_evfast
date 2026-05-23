@@ -108,23 +108,23 @@ const successCases = [
 const heroSlides = [
   {
     landscape: '/images/bg2.jpeg',
-    portrait: '/images/bg2-mobile.jpeg',
+    portrait: '/images/mobile/bg2.jpeg',
   },
   {
     landscape: '/images/bg3.png',
-    portrait: '/images/bg3-mobile.png',
+    portrait: '/images/mobile/bg3.png',
   },
   {
     landscape: '/images/bg4.jpeg',
-    portrait: '/images/bg4-mobile.jpeg',
+    portrait: '/images/mobile/bg4.jpeg',
   },
   {
     landscape: '/images/bg5.png',
-    portrait: '/images/bg5-mobile.png',
+    portrait: '/images/mobile/bg5.png',
   },
   {
     landscape: '/images/bg1.png',
-    portrait: '/images/bg1-mobile.png',
+    portrait: '/images/mobile/bg1.png',
   },
 ];
 
