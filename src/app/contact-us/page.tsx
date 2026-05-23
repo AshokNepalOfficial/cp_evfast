@@ -49,24 +49,6 @@ const ContactPage = () => {
       </Head>
 
       <div className="min-h-screen bg-white font-sans text-gray-800">
-        {/* Top Header Placeholder */}
-        <header className="border-b border-gray-100 py-4 px-8 flex justify-between items-center">
-          <div className="text-emerald-600 font-bold text-2xl">Ev® <span className="text-xs block text-gray-500 font-normal">NEW ENERGY</span></div>
-          <nav className="hidden md:flex space-x-6 text-sm font-medium">
-            <Link href="/">Home</Link>
-            <Link href="/news">News</Link>
-            <Link href="/products">Products</Link>
-            <Link href="/solutions">Solutions</Link>
-            <Link href="/social-media">Social Media</Link>
-            <Link href="/about-us">About us</Link>
-            <Link href="/contact-us" className="text-emerald-600 border-b-2 border-emerald-600">Contact us</Link>
-          </nav>
-          <div className="flex items-center space-x-2 border rounded px-2 py-1 text-xs">
-            <span className="w-4 h-3 bg-red-600 block"></span>
-            <span>EN</span>
-          </div>
-        </header>
-
         {/* Hero Section */}
         <section className="relative h-[300px] md:h-[350px] lg:h-[450px] flex items-center justify-center overflow-hidden">
           <Image
