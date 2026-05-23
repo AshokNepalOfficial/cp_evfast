@@ -88,7 +88,7 @@ export default function AboutPage() {
       </Head>
 
       {/* Hero */}
-      <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
+      <section className="relative mt-[64px] lg:mt-[80px] h-[400px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/evcharge.png"
           alt="EV Fast Charging Infrastructure"

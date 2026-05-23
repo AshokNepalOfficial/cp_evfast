@@ -50,7 +50,7 @@ const ContactPage = () => {
 
       <div className="min-h-screen bg-white font-sans text-gray-800">
         {/* Hero Section */}
-        <section className="relative h-[300px] md:h-[350px] lg:h-[450px] flex items-center justify-center overflow-hidden">
+        <section className="relative mt-[64px] lg:mt-[80px] h-[300px] md:h-[350px] lg:h-[450px] flex items-center justify-center overflow-hidden">
           <Image
             src="/images/evbuilding.png"
             alt="EV Fast Charging Building"
