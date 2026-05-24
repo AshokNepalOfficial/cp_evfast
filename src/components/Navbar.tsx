@@ -17,6 +17,7 @@ const navLinks = [
     ],
   },
   { label: 'Solutions', href: '/solutions' },
+  { label: 'Services', href: '/services' },  // ← newly added
   {
     label: 'News',
     href: '/news',
