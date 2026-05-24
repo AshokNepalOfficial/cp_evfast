@@ -96,7 +96,7 @@ const services: Service[] = [
       cooling: 'Active cooling system',
       connectors: 'CCS, GB/T, CHAdeMo',
     },
-    pricing: 'Starting from $8,500',
+    pricing: 'Starting from Rs 8,500',
     installationTime: '3-5 days',
     coverage: 'Nationwide availability',
     audience: 'Homeowners & residential properties',
@@ -136,7 +136,7 @@ const services: Service[] = [
       cooling: 'Active liquid cooling',
       connectors: 'CCS, GB/T, CHAdeMo, Multiple bays',
     },
-    pricing: 'Starting from $15,900 per station',
+    pricing: 'Starting from Rs 15,900 per station',
     installationTime: '4-8 weeks',
     coverage: 'Global deployment capability',
     audience: 'Businesses, malls, offices, airports',
@@ -176,7 +176,7 @@ const services: Service[] = [
       cooling: 'Liquid cooling system',
       connectors: 'CCS, GB/T, CHAdeMo, Multiple outputs',
     },
-    pricing: 'Starting from $65,000',
+    pricing: 'Starting from Rs 65,000',
     installationTime: '6-10 weeks',
     coverage: 'Highway networks & commercial hubs',
     audience: 'Fleet operators, highway networks, commercial centers',
@@ -216,7 +216,7 @@ const services: Service[] = [
       cooling: 'Passive air cooling',
       connectors: 'Single/Three-phase, IEC 62196',
     },
-    pricing: 'Starting from $2,800',
+    pricing: 'Starting from Rs 2,800',
     installationTime: '2-3 days',
     coverage: 'Residential & light commercial',
     audience: 'Homeowners, workplaces, parking facilities',
@@ -256,7 +256,7 @@ const services: Service[] = [
       cooling: 'Passive air cooling',
       connectors: 'Multiple standards supported',
     },
-    pricing: 'Starting from $12,000 per 2 bays',
+    pricing: 'Starting from Rs 12,000 per 2 bays',
     installationTime: '2-4 weeks',
     coverage: 'Corporate nationwide',
     audience: 'Large corporations, industrial parks, tech companies',
@@ -296,7 +296,7 @@ const services: Service[] = [
       cooling: 'Passive air cooling',
       connectors: 'CCS, GB/T, CHAdeMo',
     },
-    pricing: 'Starting from $42,000',
+    pricing: 'Starting from Rs 42,000',
     installationTime: '6-8 weeks',
     coverage: 'Nationwide solar-capable locations',
     audience: 'Environmentally conscious businesses, residential, off-grid locations',
@@ -336,7 +336,7 @@ const services: Service[] = [
       cooling: 'Passive air cooling',
       connectors: 'CCS, GB/T, CHAdeMo',
     },
-    pricing: 'Starting from $78,000',
+    pricing: 'Starting from Rs 78,000',
     installationTime: '4-6 weeks',
     coverage: 'Commercial & industrial sites',
     audience: 'Fleet operators, commercial hubs, industrial facilities',
@@ -465,7 +465,7 @@ export default function ServicesPage() {
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 Rs {
                   selectedCategory === cat.id
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
@@ -493,7 +493,7 @@ export default function ServicesPage() {
                 >
                   <div className="bg-white rounded-3xl overflow-hidden border border-gray-200 hover:border-emerald-400 hover:shadow-2xl transition-all duration-300 h-full flex flex-col group">
                     {/* Image Section */}
-                    <div className={`relative h-56 bg-gradient-to-br ${service.color} overflow-hidden flex items-center justify-center`}>
+                    <div className={`relative h-56 bg-gradient-to-br Rs {service.color} overflow-hidden flex items-center justify-center`}>
                       <Image
                         src={service.image}
                         alt={service.name}
@@ -589,7 +589,7 @@ export default function ServicesPage() {
             </button>
 
             {/* Header Image */}
-            <div className={`relative h-72 bg-gradient-to-br ${selectedService.color}`}>
+            <div className={`relative h-72 bg-gradient-to-br Rs {selectedService.color}`}>
               <Image
                 src={selectedService.image}
                 alt={selectedService.name}
@@ -661,7 +661,7 @@ export default function ServicesPage() {
                   {Object.entries(selectedService.specifications).map(([key, value]) => (
                     <div key={key} className="p-4 bg-white rounded-xl">
                       <p className="text-sm text-gray-600 font-semibold mb-1 capitalize">
-                        {key.replace(/([A-Z])/g, ' $1').trim()}
+                        {key.replace(/([A-Z])/g, ' Rs 1').trim()}
                       </p>
                       <p className="text-lg font-bold text-blue-600">{value}</p>
                     </div>
