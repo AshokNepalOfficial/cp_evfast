@@ -108,23 +108,24 @@ const successCases = [
 const heroSlides = [
   {
     landscape: '/images/bg2.jpeg',
-    portrait: '/images/mobile/bg2.jpeg',
+    portrait: '/images/mobile/product-showcase.png',
   },
   {
     landscape: '/images/bg3.png',
-    portrait: '/images/mobile/bg3.png',
+    portrait: '/images/mobile/Picture5.png',
   },
   {
     landscape: '/images/bg4.jpeg',
-    portrait: '/images/mobile/bg4.jpeg',
+    portrait: '/images/mobile/Picture9.png',
   },
   {
     landscape: '/images/bg5.png',
-    portrait: '/images/mobile/bg5.png',
+    portrait: '/images/mobile/Picture12.png',
+
   },
   {
     landscape: '/images/bg1.png',
-    portrait: '/images/mobile/bg1.png',
+    portrait: '/images/mobile/Picture10.png',
   },
 ];
 
@@ -201,7 +202,7 @@ export default function HomePage() {
                     fill
                     priority={i === 0}
                     sizes="100vw"
-                    className="object-cover"
+                    className="object-stretch"
                   />
                 </div>
               ))}
