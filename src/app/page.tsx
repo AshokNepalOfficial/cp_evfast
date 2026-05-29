@@ -144,14 +144,6 @@ export default function HomePage() {
   const [activeCaseIdx, setActiveCaseIdx] = useState(0);
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   const goToSlide = useCallback((index: number) => {
     if (isAnimating) return;
@@ -196,13 +188,26 @@ export default function HomePage() {
             >
               {heroSlides.map((slide, i) => (
                 <div key={i} className="relative min-w-full h-full flex-shrink-0">
+                  {/* Desktop / Landscape */}
                   <Image
-                    src={isMobile ? slide.portrait : slide.landscape}
+                    src={slide.landscape}
                     alt="EV Fast Charging"
                     fill
                     priority={i === 0}
                     sizes="100vw"
-                    className="object-stretch"
+                    className="hidden md:block object-cover"
+                    quality={100}
+                  />
+
+                  {/* Mobile / Portrait */}
+                  <Image
+                    src={slide.portrait}
+                    alt="EV Fast Charging"
+                    fill
+                    priority={i === 0}
+                    sizes="100vw"
+                    className="block md:hidden object-cover"
+                    quality={100}
                   />
                 </div>
               ))}
