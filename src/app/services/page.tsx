@@ -420,7 +420,7 @@ export default function ServicesPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: Zap, label: 'Service Types', value: '8' },
-              { icon: Users, label: 'Served Customers', value: '500+' },
+              { icon: Users, label: 'Served Customers', value: '100+' },
               { icon: Clock, label: 'Installation Time', value: '3-16 weeks' },
               { icon: Award, label: 'Success Rate', value: '99.9%' },
             ].map((stat, i) => (
