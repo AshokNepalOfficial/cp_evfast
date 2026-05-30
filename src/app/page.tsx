@@ -8,11 +8,18 @@ import {
   Battery, Plug, Leaf
 } from 'lucide-react';
 
+// const stats = [
+//   { value: '180+', label: 'Patent & IP Certifications', icon: Award },
+//   { value: '20+', label: 'Global Markets Served', icon: Globe },
+//   { value: '20+', label: 'Expert Engineers', icon: Users },
+//   { value: '500+', label: 'Fast Charging Installations', icon: Building2 },
+// ];
+
 const stats = [
-  { value: '180+', label: 'Patent & IP Certifications', icon: Award },
-  { value: '20+', label: 'Global Markets Served', icon: Globe },
-  { value: '50+', label: 'Expert Engineers', icon: Users },
-  { value: '500+', label: 'Fast Charging Installations', icon: Building2 },
+  { value: '100+', label: 'Products Delivered', icon: Award },
+  { value: '50+', label: 'Trusted Suppliers in China', icon: Globe },
+  { value: '100+', label: 'Happy Customers', icon: Users },
+  { value: '24/7', label: 'Customer Support', icon: Building2 },
 ];
 
 const allProducts = [
@@ -108,7 +115,7 @@ const successCases = [
 const heroSlides = [
   {
     landscape: '/images/bg2.jpeg',
-    portrait: '/images/mobile/product-showcase.png',
+    portrait: '/images/mobile/mobile-pro-1.png',
   },
   {
     landscape: '/images/bg3.png',
