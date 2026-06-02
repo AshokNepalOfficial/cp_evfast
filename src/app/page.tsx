@@ -46,8 +46,8 @@ const allProducts = [
   },
   {
     id: 'ev-p6-5',
-    title: 'GBT DC Fast Charger Advertising Screen EV Charger — Commercial OCPP1.6',
-    image: `/images/products/p46.jpg`,
+    title: 'ev 40kW DC Fast EV Charging Station Dual Unit — CCS2 & GB/T Connector',
+    image: `/images/products/p29.jpg`,
     link: '/products',
     category: 'EV Charging Stations',
   },
