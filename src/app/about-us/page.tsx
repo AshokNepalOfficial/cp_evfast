@@ -201,7 +201,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
+      {/* <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block text-xs font-bold tracking-widest uppercase text-emerald-600 mb-3 px-3 py-1 bg-emerald-50 rounded-full">
@@ -237,7 +237,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Certifications */}
       <section className="py-16 bg-white">
