@@ -45,13 +45,6 @@ const allProducts = [
     category: 'EV Charging Stations',
   },
   {
-    id: 'ev-p6-5',
-    title: 'GBT DC Fast Charger Advertising Screen EV Charger — Commercial OCPP1.6',
-    image: `/images/products/p46.jpg`,
-    link: '/products',
-    category: 'EV Charging Stations',
-  },
-  {
     id: 'ev-p26-5',
     title: '240kW to 960kW Large-Scale Commercial EV Charging Station — Split DC Fast Charging System',
     image: `/images/products/p26.jpg`,
