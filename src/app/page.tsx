@@ -51,6 +51,13 @@ const allProducts = [
     link: '/products',
     category: 'EV Charging Stations',
   },
+  {
+    id: 'ev-p26-5',
+    title: '240kW to 960kW Large-Scale Commercial EV Charging Station — Split DC Fast Charging System',
+    image: `/images/products/p26.jpg`,
+    link: '/products',
+    category: 'EV Charging Stations',
+  },
 ];
 
 const advantages = [
