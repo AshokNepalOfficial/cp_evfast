@@ -66,9 +66,9 @@ const values = [
 ];
 
 const stats = [
-  { value: '50+', label: 'Expert Engineers', icon: Users },
-  { value: '500+', label: 'Active Installations', icon: Building2 },
-  { value: '20+', label: 'Countries Served', icon: Globe },
+  { value: '100+', label: 'Satisfied Customer', icon: Users },
+  { value: '100+', label: 'Product Delivered', icon: Building2 },
+  { value: '27+', label: 'Districts Served', icon: MapPin },
   { value: '9+', label: 'Years Experience', icon: Clock },
 ];
 
