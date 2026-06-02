@@ -6,18 +6,47 @@ import Head from 'next/head';
 import {
   Award, Globe, Users, Building2, ArrowRight, Target, Eye,
   Sparkles, Shield, Leaf, Clock, Rocket, Zap, FileText, Crown,
-  Brain, ClipboardList, Lock, CheckCircle, Wifi, Phone, Mail, MapPin, Package
+  Brain, ClipboardList, Lock, CheckCircle, Wifi, Phone, Mail, MapPin, Package,TrendingUp
 } from 'lucide-react';
 
 const milestones = [
-  { year: '2015', title: 'Founded', desc: 'EV Fast Charging established with vision to revolutionize EV infrastructure', icon: Rocket },
-  { year: '2017', title: 'First Station', desc: 'Deployed first ultra-fast DC charging station in Asia-Pacific', icon: Zap },
-  { year: '2019', title: 'Global Expansion', desc: 'Reached 20+ countries across multiple continents', icon: Globe },
-  { year: '2021', title: '100+ Products Delivered', desc: 'Successfully delivered over 100 products to customers across Nepal', icon: Package},
-  { year: '2023', title: 'Market Leader', desc: 'Recognized as industry leader in fast charging technology', icon: Crown },
-  { year: '2024', title: 'AI Innovation', desc: 'Launched AI-powered charging management platform', icon: Brain },
+  {
+    year: '2015',
+    title: 'Founded',
+    desc: 'EV Fast Charging established with a vision to revolutionize EV infrastructure',
+    icon: Rocket
+  },
+  {
+    year: '2017',
+    title: 'First Station',
+    desc: 'Successfully deployed our first EV charging solution',
+    icon: Zap
+  },
+  {
+    year: '2019',
+    title: 'Nationwide Expansion',
+    desc: 'Expanded operations and services across multiple districts of Nepal',
+    icon: MapPin
+  },
+  {
+    year: '2021',
+    title: '100+ Products Delivered',
+    desc: 'Successfully delivered over 100 products to customers across Nepal',
+    icon: Package
+  },
+  {
+    year: '2023',
+    title: 'Trusted Brand',
+    desc: 'Recognized by customers for quality products and reliable service',
+    icon: Crown
+  },
+  {
+    year: '2024',
+    title: 'Business Growth',
+    desc: 'Expanded product offerings and strengthened nationwide distribution',
+    icon: TrendingUp
+  }
 ];
-
 const teamMembers = [
   { 
     name: 'Dr. Chen Wei', 
